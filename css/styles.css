@@ -1,0 +1,410 @@
+
+
+/* ---------- Imports ---------- */
+
+/* CS Reset */
+
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+
+/* --- Titles font --- */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* --- Body text font --- */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* ---------- End of imports --------- */
+
+
+/* ---------- Variables ---------- */
+
+/* Color variables*/
+
+:root{
+    --primary-dark: #3A180E;
+    --primary: #CD8133;
+    --primary-light: #E9D19E;
+    --primary-tial: #FCF7EE;
+    --neutral-dark: #231B18;
+    --neutral-medium: #373A40;
+    --white: #fff;
+}
+
+
+/* Typography variables*/
+
+:root{
+    --title-text:"Work Sans", sans-serif;
+    --body-text: "Rubik", sans-serif;
+}
+
+
+/* Spacing variables*/
+
+:root{
+   --xs: 16px;
+   --sm: 24px;
+   --md: 32px;
+   --lg: 48px;
+   --xl: 64px;
+   --2xl: 80px;
+}
+
+/* Font-size variables*/
+
+:root{
+
+    /* Title */
+
+    --title-xs: 20px;
+    --title-sm: 28px;
+    --title-md: 32px;
+    --title-lg: 40px;
+    --title-xl: 48px;
+    --title-2xl: 56px;
+    --title-3xl: 64px;
+    --title-4xl: 72px;
+    
+    /* Body */
+    
+    --body-text-xs: 14px;
+    --body-text-sm: 16px;
+    --body-text-md: 18px;
+    --body-text-lg: 20px;
+ }
+
+/* ---------- End of variables --------- */
+
+
+
+/* ---------- typography Styles ---------- */
+
+h1, h2, h3{
+    font-family: var(--title-text);
+    font-weight: 700;
+    line-height: 120%;
+    color: var(--neutral-dark);
+}
+
+
+h1{
+    font-size: var(--title-lg);
+    text-align: center;
+    margin-bottom: var(--sm);
+}
+
+h2{
+    font-size: var(--title-sm);
+    margin-bottom: var(--xs);
+}
+
+
+
+p{
+    font-family: var(--body-text);
+    font-size: var(--body-text-sm);
+    line-height: 150%;
+    color: var(--neutral-medium);
+}
+
+/* ---------- End of typography Stykes --------- */
+
+
+
+/* ---------- Header Styles ---------- */
+
+
+.header{
+    text-align: center;
+    background-color: var(--primary-tial);
+    padding:  40px  20px;
+  }
+  
+/* Navbar styles */
+
+.logo{
+    width: auto;
+    height: 100px;
+    padding: var(--xs);
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-desktop{
+    display: none;
+}
+
+.menu-desktop ul{
+    display: flex;
+
+}
+
+.menu-desktop ul li{
+    padding: 8px;
+   
+}
+
+.menu-desktop ul li a{
+    text-decoration: none;
+    color: var(--neutral-dark);
+    font-family: var(--body-text);
+    font-size: var(--body-text-xs);
+    text-align: center;
+    padding: 8px 16px;
+    border-radius: 50px;
+}
+
+.menu-desktop ul li a:hover{
+    background-color: #f9efdb;
+}
+
+.toggle-button{
+    padding: var(--sm);
+}
+
+
+
+
+/* Hero styles */
+
+.hero{
+    padding: 40px 0 0 0;
+}
+
+.label-title{
+    font-family: var(--title-text);
+    font-weight: 500;
+    font-size: var(--title-xs);
+    color: var(--primary);
+}
+
+.hero-description{
+    font-family: var(--body-text);
+    font-size: var(--body-text-md);
+    text-align: center;
+    color: var(--neutral-medium);
+}
+
+
+.hero-image{
+    margin-top: var(--lg);
+    box-shadow: 0px 130px 36px 0px rgba(217, 148, 84, 0.00), 0px 83px 33px 0px rgba(217, 148, 84, 0.01), 0px 47px 28px 0px rgba(217, 148, 84, 0.05), 0px 21px 21px 0px rgba(217, 148, 84, 0.09), 0px 5px 11px 0px rgba(217, 148, 84, 0.10);
+}
+
+/* Button */
+
+.btn-primary{
+    padding: 16px 32px;
+    background-color: var(--primary);
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--title-text);
+    border-radius: 50px;
+    border: none;
+    width: auto;
+    margin-top: var(--lg);
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(0deg, #CD8133 0%, #FFA84E 100%);
+    box-shadow: 0px 24px 7px 0px rgba(205, 129, 51, 0.00), 0px 16px 6px 0px rgba(205, 129, 51, 0.03), 0px 9px 5px 0px rgba(205, 129, 51, 0.10), 0px 4px 4px 0px rgba(205, 129, 51, 0.17), 0px 1px 2px 0px rgba(205, 129, 51, 0.20);
+}
+
+.btn-desktop{
+    display: none;
+}
+
+/* --------- End of header styles ---------- */
+
+
+/* --------- Main styles ---------*/
+
+.main{
+    padding: 40px 20px;
+}
+
+/* --------- End of Main styles ---------*/
+
+
+/* --------- Footer styles ---------*/
+
+.footer{
+    text-align: center;
+    padding: var(--md);
+}
+
+.footer-links{
+    margin-bottom: var(--sm);
+}
+
+.footer-links ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-links ul li{
+    padding: 8px;
+}
+
+.footer-links ul li a{
+    font-family: var(--body-text);
+    text-decoration: none;
+    color: var(--neutral-medium);
+}
+
+.footer p{
+    font-size: var(--body-text-xs);
+    color: #A6A6A6;
+}
+
+/* --------- End of footer styles ---------*/
+
+
+
+/*=============================================
+=            Tablet Styles            =
+=============================================*/
+
+@media(min-width: 768px) {
+
+    .header{
+        margin: o auto;
+    }
+
+    .hero{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .hero h1{
+        font-size: var(--title-2xl);
+    }
+
+    .main{
+        padding: var(--lg) 20px;
+    }
+
+    
+/* Section 01 */
+
+    .section-01{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .content{
+        padding: var(--xs);
+    }
+
+    .content h2{
+        font-size: var(--title-sm);
+    }
+
+    .section-01 img{
+        width: 50%;
+    }
+
+
+/* Section 02 */
+
+
+.section-02{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+
+.section-02 img{
+    width: 50%;
+}
+    
+.btn-primary{
+      width: auto;
+}
+
+}
+/*=====  End of Tablet Styles  ======*/
+
+
+/*=============================================
+=            Desktop Styles            =
+=============================================*/
+
+@media (min-width: 1366px){
+    
+.main-nav{
+    max-width: 1240px;
+}
+
+    .menu-desktop{
+        display: block;
+    }
+    
+    .toggle-button{
+        display: none;
+    }
+    
+    .hero{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1040px;
+        padding: var(--xl) 0 var(--2xl) 0;
+    }
+
+    .hero h1{
+        font-size: var(--title-4xl);
+    }
+
+    .hero-description{
+        font-size: var(--body-text-lg);
+        width: 599px;
+    }
+     
+    .hero-image{
+        margin-top: var(--2xl);
+    }
+
+    .main{
+        margin: 0 auto;
+    }
+
+    .section-01 ,.section-02{
+        margin: 0 auto;
+        max-width: 1240px;
+    }
+
+    .section-01 img{
+        width: 60%;
+    }
+
+    .section-02 img{
+        width: 60%;
+    }
+
+    .content{
+        padding: var(--2xl);
+    }
+
+    .btn-desktop{
+        display: block;
+    }
+    .btn-mobile{
+        display: none;
+    }
+}
+
+/*=====  End of Desktop Styles  ======*/
+
