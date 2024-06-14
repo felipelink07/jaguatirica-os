@@ -1,4 +1,4 @@
-# Jaquatirica OS
+# Jaguatirica OS
 
 ### Goal
 
