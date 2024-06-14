@@ -45,12 +45,12 @@
 /* Spacing variables*/
 
 :root{
-   --xs: 16px;
-   --sm: 24px;
-   --md: 32px;
-   --lg: 48px;
-   --xl: 64px;
-   --2xl: 80px;
+   --space-xs: 16px;
+   --space-sm: 24px;
+   --space-md: 32px;
+   --space-lg: 48px;
+   --space-xl: 64px;
+   --space-2xl: 80px;
 }
 
 /* Font-size variables*/
@@ -93,12 +93,12 @@ h1, h2, h3{
 h1{
     font-size: var(--title-lg);
     text-align: center;
-    margin-bottom: var(--sm);
+    margin-bottom: var(--space-sm);
 }
 
 h2{
     font-size: var(--title-sm);
-    margin-bottom: var(--xs);
+    margin-bottom: var(--space-xs);
 }
 
 
@@ -128,7 +128,7 @@ p{
 .logo{
     width: auto;
     height: 100px;
-    padding: var(--xs);
+    padding: var(--space-xs);
 }
 
 .main-nav{
@@ -168,7 +168,7 @@ p{
 }
 
 .toggle-button{
-    padding: var(--sm);
+    padding: var(--space-sm);
 }
 
 
@@ -196,13 +196,14 @@ p{
 
 
 .hero-image{
-    margin-top: var(--lg);
+    margin-top: var(--space-lg);
     box-shadow: 0px 130px 36px 0px rgba(217, 148, 84, 0.00), 0px 83px 33px 0px rgba(217, 148, 84, 0.01), 0px 47px 28px 0px rgba(217, 148, 84, 0.05), 0px 21px 21px 0px rgba(217, 148, 84, 0.09), 0px 5px 11px 0px rgba(217, 148, 84, 0.10);
 }
 
 /* Button */
 
 .btn-primary{
+    display: block;
     padding: 16px 32px;
     background-color: var(--primary);
     color: var(--white);
@@ -212,7 +213,7 @@ p{
     border-radius: 50px;
     border: none;
     width: auto;
-    margin-top: var(--lg);
+    margin-top: var(--space-md);
     text-align: center;
     text-decoration: none;
     background: linear-gradient(0deg, #CD8133 0%, #FFA84E 100%);
@@ -239,11 +240,11 @@ p{
 
 .footer{
     text-align: center;
-    padding: var(--md);
+    padding: var(--space-md);
 }
 
 .footer-links{
-    margin-bottom: var(--sm);
+    margin-bottom: var(--space-sm);
 }
 
 .footer-links ul{
@@ -291,7 +292,7 @@ p{
     }
 
     .main{
-        padding: var(--lg) 20px;
+        padding: var(--space-lg) 20px;
     }
 
     
@@ -304,7 +305,7 @@ p{
     }
 
     .content{
-        padding: var(--xs);
+        padding: var(--space-xs);
     }
 
     .content h2{
@@ -364,7 +365,7 @@ p{
         flex-direction: column;
         align-items: center;
         max-width: 1040px;
-        padding: var(--xl) 0 var(--2xl) 0;
+        padding: var(--space-xl) 0 var(--space-2xl) 0;
     }
 
     .hero h1{
@@ -377,7 +378,7 @@ p{
     }
      
     .hero-image{
-        margin-top: var(--2xl);
+        margin-top: var(--space-2xl);
     }
 
     .main{
@@ -398,7 +399,7 @@ p{
     }
 
     .content{
-        padding: var(--2xl);
+        padding: var(--space-2xl);
     }
 
     .btn-desktop{
