@@ -159,9 +159,11 @@ p{
     text-align: center;
     padding: 8px 16px;
     border-radius: 50px;
+    transition: background 0.2s ease-in-out; 
 }
 
 .menu-desktop ul li a:hover{
+    transition: background 0.2s ease-in-out; 
     background-color: #f9efdb;
 }
 
@@ -344,6 +346,7 @@ p{
 @media (min-width: 1366px){
     
 .main-nav{
+    margin: 0 auto;
     max-width: 1240px;
 }
 
